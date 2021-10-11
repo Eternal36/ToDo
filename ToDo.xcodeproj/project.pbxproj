@@ -3,27 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		ECF72564270F2A41003545C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF72563270F2A41003545C7 /* AppDelegate.swift */; };
 		ECF72566270F2A41003545C7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF72565270F2A41003545C7 /* SceneDelegate.swift */; };
-		ECF72568270F2A41003545C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF72567270F2A41003545C7 /* ViewController.swift */; };
+		ECF72568270F2A41003545C7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF72567270F2A41003545C7 /* LoginViewController.swift */; };
 		ECF7256B270F2A41003545C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF72569270F2A41003545C7 /* Main.storyboard */; };
 		ECF7256D270F2A46003545C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECF7256C270F2A46003545C7 /* Assets.xcassets */; };
 		ECF72570270F2A46003545C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF7256E270F2A46003545C7 /* LaunchScreen.storyboard */; };
+		ECF72579270F3B54003545C7 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF72578270F3B54003545C7 /* TasksViewController.swift */; };
+		ECF72580270F5C74003545C7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ECF7257F270F5C74003545C7 /* GoogleService-Info.plist */; };
+		ECF725A32711D628003545C7 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF725A22711D628003545C7 /* Task.swift */; };
+		ECF725A62711D62F003545C7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF725A52711D62F003545C7 /* User.swift */; };
+		ECF725AC2714F3F5003545C7 /* READMI.MD in Resources */ = {isa = PBXBuildFile; fileRef = ECF725AB2714F3F5003545C7 /* READMI.MD */; };
+		F9FEE672BBAF687C878ED779 /* Pods_ToDo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910F5CB96C9BDEFD79C34E4D /* Pods_ToDo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		910F5CB96C9BDEFD79C34E4D /* Pods_ToDo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToDo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E43D56330ED863273A9D173D /* Pods-ToDo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDo.debug.xcconfig"; path = "Target Support Files/Pods-ToDo/Pods-ToDo.debug.xcconfig"; sourceTree = "<group>"; };
 		ECF72560270F2A41003545C7 /* ToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECF72563270F2A41003545C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECF72565270F2A41003545C7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ECF72567270F2A41003545C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECF72567270F2A41003545C7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		ECF7256A270F2A41003545C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ECF7256C270F2A46003545C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECF7256F270F2A46003545C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECF72571270F2A46003545C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECF72578270F3B54003545C7 /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
+		ECF7257F270F5C74003545C7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		ECF725A22711D628003545C7 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		ECF725A52711D62F003545C7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		ECF725AB2714F3F5003545C7 /* READMI.MD */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = READMI.MD; sourceTree = "<group>"; };
+		F73ED0E8F8BA9FAFEC9EE8D5 /* Pods-ToDo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDo.release.xcconfig"; path = "Target Support Files/Pods-ToDo/Pods-ToDo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9FEE672BBAF687C878ED779 /* Pods_ToDo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BA91DB2AE5406CFCA07694E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				910F5CB96C9BDEFD79C34E4D /* Pods_ToDo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7560154DF197A5D5E85AA50A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E43D56330ED863273A9D173D /* Pods-ToDo.debug.xcconfig */,
+				F73ED0E8F8BA9FAFEC9EE8D5 /* Pods-ToDo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		ECF72557270F2A41003545C7 = {
 			isa = PBXGroup;
 			children = (
+				ECF725AB2714F3F5003545C7 /* READMI.MD */,
 				ECF72562270F2A41003545C7 /* ToDo */,
 				ECF72561270F2A41003545C7 /* Products */,
+				7560154DF197A5D5E85AA50A /* Pods */,
+				1BA91DB2AE5406CFCA07694E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +91,43 @@
 		ECF72562270F2A41003545C7 /* ToDo */ = {
 			isa = PBXGroup;
 			children = (
+				ECF7257D270F3B87003545C7 /* Supporting files */,
+				ECF725A82711D637003545C7 /* Models */,
+				ECF7257B270F3B5E003545C7 /* Controllers */,
+				ECF72571270F2A46003545C7 /* Info.plist */,
+				ECF7257F270F5C74003545C7 /* GoogleService-Info.plist */,
+			);
+			path = ToDo;
+			sourceTree = "<group>";
+		};
+		ECF7257B270F3B5E003545C7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ECF72567270F2A41003545C7 /* LoginViewController.swift */,
+				ECF72578270F3B54003545C7 /* TasksViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		ECF7257D270F3B87003545C7 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
 				ECF72563270F2A41003545C7 /* AppDelegate.swift */,
 				ECF72565270F2A41003545C7 /* SceneDelegate.swift */,
-				ECF72567270F2A41003545C7 /* ViewController.swift */,
 				ECF72569270F2A41003545C7 /* Main.storyboard */,
 				ECF7256C270F2A46003545C7 /* Assets.xcassets */,
 				ECF7256E270F2A46003545C7 /* LaunchScreen.storyboard */,
-				ECF72571270F2A46003545C7 /* Info.plist */,
 			);
-			path = ToDo;
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		ECF725A82711D637003545C7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ECF725A22711D628003545C7 /* Task.swift */,
+				ECF725A52711D62F003545C7 /* User.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +137,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECF72574270F2A46003545C7 /* Build configuration list for PBXNativeTarget "ToDo" */;
 			buildPhases = (
+				AA33CB2A7F4F81C9D78CE05F /* [CP] Check Pods Manifest.lock */,
 				ECF7255C270F2A41003545C7 /* Sources */,
 				ECF7255D270F2A41003545C7 /* Frameworks */,
 				ECF7255E270F2A41003545C7 /* Resources */,
+				440885B126958F377F3F9E25 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,20 +189,67 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECF725AC2714F3F5003545C7 /* READMI.MD in Resources */,
 				ECF72570270F2A46003545C7 /* LaunchScreen.storyboard in Resources */,
 				ECF7256D270F2A46003545C7 /* Assets.xcassets in Resources */,
+				ECF72580270F5C74003545C7 /* GoogleService-Info.plist in Resources */,
 				ECF7256B270F2A41003545C7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		440885B126958F377F3F9E25 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToDo/Pods-ToDo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToDo/Pods-ToDo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ToDo/Pods-ToDo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA33CB2A7F4F81C9D78CE05F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ToDo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ECF7255C270F2A41003545C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECF72568270F2A41003545C7 /* ViewController.swift in Sources */,
+				ECF72568270F2A41003545C7 /* LoginViewController.swift in Sources */,
+				ECF72579270F3B54003545C7 /* TasksViewController.swift in Sources */,
+				ECF725A62711D62F003545C7 /* User.swift in Sources */,
+				ECF725A32711D628003545C7 /* Task.swift in Sources */,
 				ECF72564270F2A41003545C7 /* AppDelegate.swift in Sources */,
 				ECF72566270F2A41003545C7 /* SceneDelegate.swift in Sources */,
 			);
@@ -283,6 +395,7 @@
 		};
 		ECF72575270F2A46003545C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E43D56330ED863273A9D173D /* Pods-ToDo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +415,7 @@
 		};
 		ECF72576270F2A46003545C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F73ED0E8F8BA9FAFEC9EE8D5 /* Pods-ToDo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
